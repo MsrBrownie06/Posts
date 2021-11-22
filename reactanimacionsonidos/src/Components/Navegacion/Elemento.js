@@ -1,6 +1,9 @@
 import { useSpring, animated } from "react-spring";
 import React, { Component, useState } from "react";
 
+//importaremos react Howler
+import ReactHowler from 'react-howler'
+
 //imagenes de personajes
 import AlbedoImg from "../../Assets/img/personajes/Albedo.png";
 import AloyImg from "../../Assets/img/personajes/Aloy.png";
@@ -43,6 +46,9 @@ import XinyanImg from "../../Assets/img/personajes/Xinyan.png";
 import YanfeiImg from "../../Assets/img/personajes/Yanfei.png";
 import YoimiyaImg from "../../Assets/img/personajes/Yoimiya.png";
 import ZhongliImg from "../../Assets/img/personajes/Zhongli.png";
+
+//importamos los sonidos
+import sonidoCarta from '../../Assets/sound/flipCard.ogg'
 
 export default class Elemento extends Component {
   state = {
@@ -455,6 +461,7 @@ function Personaje(props) {
       className="col text-center"
     >
       <animated.div style={{ border }} className="card mb-3 m-2">
+        <ReactHowler src={sonidoCarta} playing={volteado} />
         <animated.img
           onMouseEnter={() => {
             setEncima(true);

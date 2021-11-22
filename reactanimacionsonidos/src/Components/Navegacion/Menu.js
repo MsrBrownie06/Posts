@@ -1,11 +1,14 @@
 import React, { Component, useState } from "react";
 //importamos el react Spring
 import { useSpring, config, animated } from 'react-spring';
+//importaremos react Howler
+import ReactHowler from 'react-howler'
 
 import { Link } from "react-router-dom";
 import Global from "../../Global";
 import axios from "axios";
 
+//importamos las imagenes
 import anemoImg from "../../Assets/img/visiones/anemo.png";
 import pyroImg from "../../Assets/img/visiones/pyro.png";
 import cryoImg from "../../Assets/img/visiones/cryo.png";
@@ -13,6 +16,9 @@ import hydroImg from "../../Assets/img/visiones/hydro.png";
 import dendroImg from "../../Assets/img/visiones/dendro.png";
 import electroImg from "../../Assets/img/visiones/electro.png";
 import geoImg from "../../Assets/img/visiones/geo.png";
+
+//importamos los sonidos
+import sonidoEncima from '../../Assets/sound/efectoEncima.ogg'
 
 //creamos la funcion OpcionMenu, en donde, ademas de crear los LI de la lista de rutas, añadiremos una animacion con Spring
 function OpcionMenu(props) {
@@ -49,6 +55,7 @@ function OpcionMenu(props) {
       key={index}
       className="nav-item btn mx-2"
     >
+      <ReactHowler src={sonidoEncima} playing={opcion} />
       <Link to={"/elemento/" + obj} className="nav-link">
         <img
           src={imagen.img}
