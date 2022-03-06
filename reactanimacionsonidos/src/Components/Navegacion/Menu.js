@@ -1,4 +1,5 @@
 import React, { Component, useState } from "react";
+
 //importamos el react Spring
 import { useSpring, config, animated } from 'react-spring';
 //importaremos react Howler
@@ -32,6 +33,7 @@ function OpcionMenu(props) {
 
   //Aqui creamos la animacion que modificara la altura de los LI, 
   //ademas de configurarlo mediante la masa, tension y fricción
+
   const animacion = useSpring({
     from: { height: opcion ? "130px" : "150px", backgroundColor: imagen.backgroundColor },
     to: { height: opcion ? "150px" : "130px" },
@@ -40,6 +42,7 @@ function OpcionMenu(props) {
 
   //Aqui creamos la animacion modificando una propiedad css y usaremos "config" el cual 
   //nos proporciona configuraciones predeterminadas que se pueden ver en la pagina oficial
+
   const { opacity } = useSpring({
     opacity: opcion ? "1" : "0",
     config: { config: config.default }
