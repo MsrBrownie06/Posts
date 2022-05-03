@@ -101,11 +101,7 @@ C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjet
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\LogicAppObjetcAExcel.TagHelpers.input.cache
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\LogicAppObjetcAExcel.TagHelpers.output.cache
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\LogicAppObjetcAExcel.RazorCoreGenerate.cache
-C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\LogicAppObjetcAExcel.RazorTargetAssemblyInfo.cache
@@ -117,3 +113,6 @@ C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjet
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\LogicAppObjetcAExcel.pdb
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\LogicAppObjetcAExcel.genruntimeconfig.cache
 C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Objeto\CreateObjeto.cshtml.g.cs
+C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Braian\Documents\MASTER TAJAMAR\POST\LogicAppObjetcAExcel\LogicAppObjetcAExcel\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs

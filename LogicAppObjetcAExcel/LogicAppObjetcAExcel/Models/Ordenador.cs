@@ -17,15 +17,16 @@ namespace LogicAppObjetcAExcel.Models
     }
 
     /*
-     {
-        "IdOrdenador" : 0,
-        "Gabinete" : "dato",
-        "PlacaBase" : "dato",
-        "CPU" : "dato",
-        "RAM" : "dato",
-        "TarjetaGrafica" : "dato",
-        "Alimentacion" : "dato"
-    }
+        {
+            "IdOrdenador" : 0,
+            "Gabinete" : "dato",
+            "PlacaBase" : "dato",
+            "CPU" : "dato",
+            "RAM" : "dato",
+            "TarjetaGrafica" : "dato",
+            "Alimentacion" : "dato"
+        }
      
      */
+
 }
