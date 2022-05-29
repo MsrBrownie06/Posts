@@ -41,6 +41,20 @@ namespace PreVideoElasticCache.Services
             this.cache.StringSet("prevideoscache", json, TimeSpan.FromMinutes(30));
         }
 
+        public List<preVideo> GetListaPreVideosCache()
+        {
+            string json = this.cache.StringGet("prevideoscache");
+            if (json == null)
+            {
+                return null;
+            }
+            else
+            {
+                List<preVideo> listaPreVideos =
+                JsonConvert.DeserializeObject<List<preVideo>>(json);
+                return listaPreVideos;
+            }
+        }
 
     }
 }

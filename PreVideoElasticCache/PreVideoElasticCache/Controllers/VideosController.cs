@@ -24,7 +24,8 @@ namespace PreVideoElasticCache.Controllers
         public IActionResult CreatePreVideo(preVideo preVideo)
         {
             this.service.AgregarPreVideo(preVideo);
-            return View();
+            List<preVideo> lista = this.service.GetListaPreVideosCache();
+            return View(lista);
         }
     }
 }
