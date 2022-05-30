@@ -11,7 +11,7 @@ namespace PreVideoElasticCache.Helpers
         private static Lazy<ConnectionMultiplexer> GenerarConexion = new Lazy<ConnectionMultiplexer>(() =>
         {
 
-        return ConnectionMultiplexer.Connect("cacheredis-preobjetos.j8fik1.ng.0001.use1.cache.amazonaws.com:6379");
+        return ConnectionMultiplexer.Connect("cache-post.j8fik1.ng.0001.use1.cache.amazonaws.com:6379");
         });
 
         public static ConnectionMultiplexer Connection

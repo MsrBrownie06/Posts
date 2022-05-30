@@ -1,12 +1,6 @@
-﻿@model List<preVideo>
+﻿
+@model List<preVideo>
 
-@{
-    ViewData["Title"] = "CreatePreVideo";
-}
-
-<h1>CreatePreVideo</h1>
-
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="CreatePreVideo">
@@ -27,18 +21,14 @@
         </form>
     </div>
 </div>
+
 @if (Model != null)
 {
-
-
     <ul class="list-group">
         @foreach (preVideo pv in Model)
         {
             <li class="list-group-item"> Titulo : @pv.Titulo , Link : @pv.Link</li>
         }
-
-
-
     </ul>
 }
 else
